@@ -1,5 +1,6 @@
 """
-The service lists the status of all the Google Cloud compute instances connected to a particular account on a per-project, per-zone basis.
+The service lists the status of all the Google Cloud compute instances connected to a particular account on a per-project, 
+per-zone basis.
 
 Sample usage: python3 listInstances.py
 
