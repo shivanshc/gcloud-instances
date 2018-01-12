@@ -6,6 +6,8 @@ listInstances.py : It can be used to list all the instances connected to a gclou
 
 listRoutes.py: It can be used to list all the route (routing table entries) for all the projects connected to a gcloud account on a per-project basis. It also has the option of getting extensive details of a route if required.
 
+listSubnetworks.py: It can be used to list all the subnetworks(subnets) for all the projects connected to a gcloud account on a per-project, per-region basis. It also has the option of getting extensive details of a subnet if required.
+
 ### Setup Instructions
 1. Clone this git repositroy.
 2. Install the python dependencies using (Could be done in a virtualenv if you wish)
