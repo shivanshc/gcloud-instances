@@ -10,6 +10,8 @@ listSubnetworks.py: It can be used to list all the subnetworks(subnets) for all 
 
 listRoles.py: It can be used to list all the security roles of all the google cloud projects tied to a certain account. It also prints the info about who is assigned to what role and has the option to get more detailed info about any role if required.
 
+listVPNTunnels.py: It can be used to list all the VPN tunnels which are connected to a project for all the projects associated with the google cloud account being used. It prints all the relevant info for a VPN tunnel.
+
 ### Setup Instructions
 1. Clone this git repositroy.
 2. Install the python dependencies using (Could be done in a virtualenv if you wish)
