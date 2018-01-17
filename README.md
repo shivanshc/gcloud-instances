@@ -8,6 +8,8 @@ listRoutes.py: It can be used to list all the route (routing table entries) for 
 
 listSubnetworks.py: It can be used to list all the subnetworks(subnets) for all the projects connected to a gcloud account on a per-project, per-region basis. It also has the option of getting extensive details of a subnet if required.
 
+listRoles.py: It can be used to list all the security roles of all the google cloud projects tied to a certain account. It also prints the info about who is assigned to what role and has the option to get more detailed info about any role if required.
+
 ### Setup Instructions
 1. Clone this git repositroy.
 2. Install the python dependencies using (Could be done in a virtualenv if you wish)
