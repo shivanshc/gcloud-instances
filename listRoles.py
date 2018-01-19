@@ -12,7 +12,8 @@ For project My First Project, the IAM policy is:
                'role': 'roles/owner'}],
  'etag': 'BwVg4hcfVKk=',
  'version': 1}
-Enter a role name to get more detailed info or c to continue: {'description': 'Edit access to all resources.',
+Enter a role name to get more detailed info or c to continue: roles/editor
+{'description': 'Edit access to all resources.',
  'etag': 'AA==',
  'includedPermissions': ['appengine.applications.get',
                          'appengine.applications.list',

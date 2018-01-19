@@ -25,7 +25,9 @@ For project My First Project, the subnetworks are:
 | default |         us-east4        |   default   |
 | default |         us-west1        |   default   |
 +---------+-------------------------+-------------+
-Enter a subnetwork name to get more detailed info or c to continue: Enter the region name for the chosen subnetwork: {'creationTimestamp': '2017-12-21T15:31:25.355-08:00',
+Enter a subnetwork name to get more detailed info or c to continue: default
+Enter the region name for the chosen subnetwork: us-east1
+{'creationTimestamp': '2017-12-21T15:31:25.355-08:00',
  'gatewayAddress': '10.142.0.1',
  'id': '896079670801463970',
  'ipCidrRange': '10.142.0.0/20',
@@ -64,7 +66,7 @@ for project in client.list_projects():
                         networkName = (networkUrl.split("/"))[-1]
                         t.add_row([subnet['name'], regionName, networkName])
                 subnetRequest = compute.routes().list_next(previous_request=subnetRequest, previous_response=subnetResponse)
-        request = compute.routes().list_next(previous_request=request, previous_response=response)
+        request = compute.regions().list_next(previous_request=request, previous_response=response)
     print (t)
     t.clear_rows()
     user_choice = input("Enter a subnetwork name to get more detailed info or c to continue: ")

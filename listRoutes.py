@@ -26,7 +26,8 @@ For project My First Project, the routes are:
 | default-route-f7ce6e8de1086133 |   default   | Default local route to the subnetwork 10.160.0.0/20. |
 | default-route-f9c9db6ca9465e9e |   default   | Default local route to the subnetwork 10.128.0.0/20. |
 +--------------------------------+-------------+------------------------------------------------------+
-Enter a route name to get more detailed info or c to continue: {'creationTimestamp': '2017-12-21T15:31:29.860-08:00',
+Enter a route name to get more detailed info or c to continue: default-route-64e9fe257d64b894
+{'creationTimestamp': '2017-12-21T15:31:29.860-08:00',
  'description': 'Default local route to the subnetwork 10.150.0.0/20.',
  'destRange': '10.150.0.0/20',
  'id': '774197814725049022',

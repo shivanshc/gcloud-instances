@@ -12,6 +12,10 @@ listRoles.py: It can be used to list all the security roles of all the google cl
 
 listVPNTunnels.py: It can be used to list all the VPN tunnels which are connected to a project for all the projects associated with the google cloud account being used. It prints all the relevant info for a VPN tunnel.
 
+listVPCs.py: It can be used to list all the VPCs/Networks belonging to a certain project for all projects linked to an account. We can also use it to print detailed info about a certain VPC.
+
+listPools.py: It can be used to list all the target pools belonging for all the projects linked to an account. It can also be used to get detailed info regarding a target pool if required. Note: Target pools are used for network load balancing and thus, this essentially gives information about load balancing.
+
 ### Setup Instructions
 1. Clone this git repositroy.
 2. Install the python dependencies using (Could be done in a virtualenv if you wish)

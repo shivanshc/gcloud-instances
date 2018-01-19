@@ -6,6 +6,25 @@ Sample usage: python3 listVPCs.py
 
 Sample output:
 
+For project My Project 40050, the Networks are:
++----------+---------------------------------+
+|   Name   |           Description           |
++----------+---------------------------------+
+| deafult2 |            Second VPC           |
+| default  | Default network for the project |
++----------+---------------------------------+
+Enter a VPC/Network name to get more detailed info or c to continue: default2
+{'autoCreateSubnetworks': False,
+ 'creationTimestamp': '2018-01-17T07:14:31.649-08:00',
+ 'description': 'Second VPC',
+ 'id': '1541726810036950712',
+ 'kind': 'compute#network',
+ 'name': 'deafult2',
+ 'routingConfig': {'routingMode': 'REGIONAL'},
+ 'selfLink': 'https://www.googleapis.com/compute/v1/projects/lyrical-diagram-192415/global/networks/deafult2',
+ 'subnetworks': ['https://www.googleapis.com/compute/v1/projects/lyrical-diagram-192415/regions/us-east1/subnetworks/default2']}
+Enter a VPC/Network name to get more detailed info or c to continue:c
+
 """
 
 import googleapiclient.discovery
