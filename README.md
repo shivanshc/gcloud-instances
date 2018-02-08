@@ -2,7 +2,7 @@
 
 The different gcloud utilities simplify access to some important information for a particular google cloud account on a per-project basis. All the .py files have a description, sample usage and sample output at the top of the file. The different utilities are summarised below too:
 
-listInstances.py : It can be used to list all the instances connected to a gcloud account along with their status on a per-project, per-zone basis.
+listInstancesAndHosts.py : It can be used to list all the instances connected to a gcloud account along with their status on a per-project, per-zone basis. It also prints the machine type of the instances so users can get more detailed host information about any machine type. Finally, it also has the option to print network interfaces of any given instance name.
 
 listRoutes.py: It can be used to list all the route (routing table entries) for all the projects connected to a gcloud account on a per-project basis. It also has the option of getting extensive details of a route if required.
 
@@ -15,6 +15,10 @@ listVPNTunnels.py: It can be used to list all the VPN tunnels which are connecte
 listVPCs.py: It can be used to list all the VPCs/Networks belonging to a certain project for all projects linked to an account. We can also use it to print detailed info about a certain VPC.
 
 listPools.py: It can be used to list all the target pools belonging for all the projects linked to an account. It can also be used to get detailed info regarding a target pool if required. Note: Target pools are used for network load balancing and thus, this essentially gives information about load balancing.
+
+listRegionsAndZones.py: This service lists all the available regions and zones to a particular project.
+
+listFirewalls.py: It prints a table with all the firewall rules associated with google cloud projects connected to a certain account.
 
 ### Setup Instructions
 1. Clone this git repositroy.
